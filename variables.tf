@@ -32,7 +32,7 @@ variable "family" {
 }
 
 variable "description" {
-  description = "The description of the DB cluster parameter group. Defaults to "Managed by Terraform". "
+  description = "The description of the DB cluster parameter group. Defaults to \"Managed by Terraform\"."
   type        = string
   default     = null
 }
