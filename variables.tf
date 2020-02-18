@@ -13,11 +13,13 @@ variable "tags" {
 variable "name" {
   description = "The name of the DB cluster parameter group. If omitted, Terraform will assign a random, unique name."
   type        = string
+  default     = ""
 }
 
 variable "name_prefix" {
   description = "Creates a unique name beginning with the specified prefix. Conflicts with name."
   type        = string
+  default     = ""
 }
 
 variable "use_name_prefix" {
